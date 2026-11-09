@@ -1,0 +1,25 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (nunca se suben)
+.env
+.env.*
+!.env.example
+
+# Compilados y pruebas
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# VS Code: se comparte solo la configuración del equipo
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
